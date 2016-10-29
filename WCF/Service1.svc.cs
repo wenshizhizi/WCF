@@ -21,7 +21,7 @@ namespace WCF
         {
             if (composite == null)
             {
-                throw new ArgumentNullException("composite");
+                throw new ArgumentNullException("composite"); 
             }
             if (composite.BoolValue)
             {
